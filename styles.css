@@ -1,3 +1,15 @@
 body {
     font-family: monospace;
+    background-color: lightgray;
+}
+.head1-1 {
+    font-size: 30px;
+    color: green;
+}
+.head1-2 {
+    font-size: 20px;
+    color: hotpink;
+}
+.uppercase {
+    text-transform: uppercase;
 }
