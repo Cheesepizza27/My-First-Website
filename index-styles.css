@@ -1,16 +1,15 @@
 html {
     font-family: monospace;
 }
-div {
-    border: black;
-    border-width: 2px;
-    border-style: solid;
+body {
+    background-color: #cfcfc4;
 }
 
 /* header element */
 #header {
     background-color: #ffb347;
     text-align: center;
+    padding: 10px 10px;
 }
 #header img {
     padding: 15px 20px;
@@ -28,7 +27,9 @@ div {
 #main {
     text-align: center;
     font-size: 14px;
-    background-color: #cfcfc4;
+}
+#article-text {
+    display: inline-block;
 }
 #main p {
     margin: 14px 10px;
@@ -36,7 +37,9 @@ div {
 
     /* Figures */
     figure {
-        margin: 30px 40px
+        margin: 30px 40px;
+        display: inline-block;
+        vertical-align: top;
     }
     figure img {
         border: solid white;
@@ -47,12 +50,8 @@ div {
     figcaption {
         font-style: italic;
         font-size:14px;
+        margin: 5px 5px;
     }
-    .smaller {
-        width: 200px;
-        height: 180px;
-    }
-
 
 /* footer */
 #footer {
