@@ -1,5 +1,5 @@
 html {
-    font-family: monospace;
+    font-family: 'Oswald', monospace;
 }
 body {
     background-color: #cfcfc4;
@@ -9,30 +9,31 @@ body {
 #header {
     background-color: #ffb347;
     text-align: center;
-    padding: 10px 10px;
+    padding: 20x 20px;
 }
 #header img {
-    padding: 15px 20px;
     width: 80px;
     height: 80px;
-    border-radius: 360px;
+    border-radius: 100%;
+    border: 5px solid rgba(0, 0, 0, 0.781);
 }
 #header h1 {
-    margin: 2px;
-    margin-bottom: 10px;
     font-size: 40px;
+    font-family: 'Shadows Into Light', monospace;
+    margin: auto 0px;
 }
 
 /* main element */
 #main {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
 }
 #article-text {
     display: inline-block;
 }
 #main p {
-    margin: 14px 10px;
+    margin: 0px 215px;
+    text-align: justify;
 }
 
     /* Figures */
@@ -57,4 +58,5 @@ body {
 #footer {
     text-align: center;
     background-color: #ffb347;
+    margin: 0px 0px;
 }
