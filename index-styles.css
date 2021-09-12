@@ -1,3 +1,61 @@
-h1 {
+html {
+    font-family: monospace;
+}
+div {
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* header element */
+#header {
+    background-color: #ffb347;
+    text-align: center;
+}
+#header img {
+    padding: 15px 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 360px;
+}
+#header h1 {
+    margin: 2px;
+    margin-bottom: 10px;
     font-size: 40px;
+}
+
+/* main element */
+#main {
+    text-align: center;
+    font-size: 14px;
+    background-color: #cfcfc4;
+}
+#main p {
+    margin: 14px 10px;
+}
+
+    /* Figures */
+    figure {
+        margin: 30px 40px
+    }
+    figure img {
+        border: solid white;
+        border-width: 1px;
+        height: 169px;
+        width: 309px;
+    }
+    figcaption {
+        font-style: italic;
+        font-size:14px;
+    }
+    .smaller {
+        width: 200px;
+        height: 180px;
+    }
+
+
+/* footer */
+#footer {
+    text-align: center;
+    background-color: #ffb347;
 }
